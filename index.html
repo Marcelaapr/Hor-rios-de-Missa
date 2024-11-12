@@ -7,39 +7,26 @@
     <meta name="author" content="Marcela Rodriguez">
     <title>Horários de Missas - João Pessoa</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Horários de Missas - João Pessoa</h1>
-        <nav>
-            <ul>
-                <li><a href="#igrejas">Igrejas</a></li>
-                <li><a href="#horarios">Horários</a></li>
-                <li><a href="#mapa">Mapa</a></li>
-            </ul>
-        </nav>
+        <h1>Horários de Missas - João Pessoa</h1>       
     </header>
 
     <main>
         <!-- Seção de Introdução -->
         <section id="intro">
             <h2>Bem-vindo ao site de Horários de Missas em João Pessoa</h2>
-            <p>Aqui você encontrará os horários de missas nas principais igrejas da cidade de João Pessoa. Use a busca para filtrar por bairro ou dia da semana, e veja a localização das igrejas no mapa.</p>
+            <p>Aqui você encontrará os horários de missas nas principais igrejas da cidade de João Pessoa. Use a busca para filtrar por bairro ou paróquia, e veja a localização das igrejas no mapa.</p>
         </section>
 
-        <!-- Seção de Igrejas -->
-        <section id="igrejas">
-            <h2>Igrejas em João Pessoa</h2>
-            <ul>
-                <li>Igreja de São Francisco</li>
-                <li>Igreja de Nossa Senhora das Neves</li>
-                <li>Igreja de São Pedro e São Paulo</li>
-                <li>Catedral Basílica de Nossa Senhora das Neves</li>
-                <!-- Adicione mais igrejas conforme necessário -->
-            </ul>
+        <section>
+            <input type="text" placeholder="Digite o nome do bairro ou paróquia" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
         </section>
-
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    
         <!-- Seção de Horários -->
         <section id="horarios">
             <h2>Horários de Missa</h2>
@@ -78,11 +65,11 @@
             <p>Encontre as igrejas no mapa abaixo:</p>
             <div id="mapa-container" style="height: 500px; width: 100%;">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7380529429776!2d-34.8630!3d-7.1195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ad2f30b5c7e7a3b%3A0x1234567890abcdef!2sIgreja%20de%20São%20Francisco!5e0!3m2!1spt-BR!2sbr!4v1681234567890" 
-                    width="960" 
-                    height="499" 
-                    style="border:0;" 
-                    allowfullscreen="" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7380529429776!2d-34.8630!3d-7.1195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ad2f30b5c7e7a3b%3A0x1234567890abcdef!2sIgreja%20de%20São%20Francisco!5e0!3m2!1spt-BR!2sbr!4v1681234567890"
+                    width="100%"
+                    height="100%"
+                    style="border:0;"
+                    allowfullscreen=""
                     loading="lazy">
                 </iframe>
             </div>
@@ -92,5 +79,7 @@
     <footer>
         <p>&copy; 2024 Horários de Missas - João Pessoa. Desenvolvido por Marcela Rodriguez.</p>
     </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
