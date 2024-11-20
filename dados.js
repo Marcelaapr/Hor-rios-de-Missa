@@ -1044,8 +1044,178 @@ let dados = [
         endereco: "Endereço: R. José Lúcio dos Santos - Cidade dos Funcionários II, João Pessoa - PB, 58078-220",
         diahorario: "Horários: Terça e Quinta - 19:30, Sexta - 17:00, Domingo - 07:00, 19:00",
         link: "https://www.instagram.com/paroquiasantanajp/",
-        tags: "Paróquia Sant'Ana Paróquia Santana Paroquia Santana Funcionários 2 Funcionarios 2"  
+        tags: "Paróquia Sant'Ana Paróquia Santana Paroquia Santana Funcionários 2 Funcionarios 2 Funcionários II"  
     },
+
+    {
+        paroquia: "Par. Sant'Ana - Com. N. Sra da Conceição",
+        endereco: "Endereço: Funcionários III, João Pessoa - PB, 58078-220",
+        diahorario: "Horários: Quarta - 19:30",
+        link: "https://www.instagram.com/paroquiasantanajp/",
+        tags: "Paróquia Sant'Ana Paróquia Santana Paroquia Santana Comunidade Nossa Senhora Da Conceição Comunidade Nossa Senhora Da Conceicao Funcionários 3 Funcionarios 3 Funcionários III"  
+    },
+
+    {
+        paroquia: "Par. Sant'Ana - Com. N. Sra. de Nazaré",
+        endereco: "Endereço: Cidade dos Funcionários III, João Pessoa - PB, 58033-455",
+        diahorario: "Horários: Sábado - 16:00, Domingo - 09:30",
+        link: "https://www.instagram.com/paroquiasantanajp/",
+        tags: "Paróquia Sant'Ana Paróquia Santana Paroquia Santana Comunidade Nossa Senhora de Nazaré Comunidade Nossa Senhora de Nazare Funcionários 3 Funcionarios 3 Funcionários III"  
+    },
+
+    {
+        paroquia: "Par. Sant'Ana - Com. S. João Paulo II",
+        endereco: "Endereço: Cidade dos Funcionários III, João Pessoa - PB",
+        diahorario: "Horários: Sábado - 17:30",
+        link: "https://www.instagram.com/paroquiasantanajp/",
+        tags: "Paróquia Sant'Ana Paróquia Santana Paroquia Santana Comunidade São João Paulo II Comunidade Sao Joao Paulo II Sao Joao Paulo 2 Funcionários 3 Funcionarios 3 Funcionários III"  
+    },
+
+    {
+        paroquia: "Par. Sant'Ana - Com. N. Sra. Aparecida",
+        endereco: "Endereço: R. Maria Paulino da Silva - Mangabeira, João Pessoa - PB, 58057-000",
+        diahorario: "Horários: Sábado - 19:30",
+        link: "https://www.instagram.com/paroquiasantanajp/",
+        tags: "Paróquia Sant'Ana Paróquia Santana Paroquia Santana Comunidade Nossa Senhora Aparecida Mangabeira"  
+    },
+
+    {
+        paroquia: "Par. Sant'Ana - Com. S. Paulo Apóstolo",
+        endereco: "Endereço:  Cidade dos Funcionários II e III, João Pessoa - PB, 58079-130",
+        diahorario: "Horários: Domingo - 17:00",
+        link: "https://www.instagram.com/paroquiasantanajp/",
+        tags: "Paróquia Sant'Ana Paróquia Santana Paroquia Santana Comunidade Nossa Senhora Aparecida Funcionários II Funcionarios II Funcionários 2"  
+    },
+
+    {
+        paroquia: "Par. Sant'Ana - Santuário S. José",
+        endereco: "Endereço: R. Francisco Tito da Silva - João Paulo II, João Pessoa - PB, 58076-662",
+        diahorario: "Horários: Domingo - 17:00",
+        link: "https://www.instagram.com/paroquiasantanajp/",
+        tags: "Paróquia Sant'Ana Paróquia Santana Paroquia Santana Santuário São José Santuario Sao Jose João Paulo II Joao Paulo II João Paulo 2 Joao Paulo 2"  
+    },
+
+    {
+        paroquia: "Par. N. Sra. da Assunção - Igreja Matriz Sta. Clara",
+        endereco: "Endereço: R. Frei Antônio Gonçalves, 377 - Funcionários IV",
+        diahorario: "Horários: Quinta: - 19:30, Domingo - 07:00, 19:00",
+        link: "https://www.instagram.com/paroquiaassuncaojp/",
+        tags: "Paróquia Nossa Senhora da Assunção Paroquia Nossa Senhora da Assuncao Igreja Matriz Santa Clara Funcionários IV Funcionarios IV Funcionários 4 Funcionarios 4"  
+    },
+
+    {
+        paroquia: "Par. N. Sra. da Assunção - Com. N. Sra. da Assunção",
+        endereco: "Endereço: Funcionários IV",
+        diahorario: "Horários: Domingo - 17:00",
+        link: "https://www.instagram.com/paroquiaassuncaojp/",
+        tags: "Paróquia Nossa Senhora da Assunção Paroquia Nossa Senhora da Assuncao Comunidade Nossa Senhora da Assunção Comunidade Nossa Senhora da Assuncao Funcionários IV Funcionarios IV Funcionários 4 Funcionarios 4"  
+    },
+
+    {
+        paroquia: "Par. N. Sra. da Assunção - Com. N. Sra. das Graças",
+        endereco: "Endereço: Funcionários IV",
+        diahorario: "Horários: Sábado - 19:30",
+        link: "https://www.instagram.com/paroquiaassuncaojp/",
+        tags: "Paróquia Nossa Senhora da Assunção Paroquia Nossa Senhora da Assuncao Comunidade Nossa Senhora das Graças Comunidade Nossa Senhora das Gracas Funcionários IV Funcionarios IV Funcionários 4 Funcionarios 4"  
+    },
+
+    {
+        paroquia: "Com. Doce Mãe de Deus - Casa Mãe",
+        endereco: "Endereço: R. Valdemar Naziazeno - Ernesto Geisel, João Pessoa - PB, 58075-000",
+        diahorario: "Horários: Segunda a Sexta - 19:00, Sábado - 17:00, Domingo - 06:00, 17:00",
+        link: "https://www.instagram.com/docemaededeus/",
+        tags: "Comunidade Doce Mãe de Deus Doce Mae de Deus Casa mãe Ernesto Geisel"  
+    },
+
+    {
+        paroquia: "Com. Doce Mãe de Deus - Capela Santíssima Trindade",
+        endereco: "Endereço: R. Valdemar Naziazeno - Ernesto Geisel, João Pessoa - PB, 58075-000",
+        diahorario: "Horários: indisponível",
+        link: "https://www.instagram.com/docemaededeus/",
+        tags: "Comunidade Doce Mãe de Deus Doce Mae de Deus Casa mãe Capela Santíssima Trindade Capela Santissima Trindade Ernesto Geisel"  
+    },
+
+    {
+        paroquia: "Par. Sto. Antônio de Pádua",
+        endereco: "Endereço: R. Dr. Ranulfo Cunha, s/n - Ernesto Geisel, João Pessoa - PB, 58075-300",
+        diahorario: "Horários: Terça a Quinta - 19:00, Sexta e Sábado - 17:00, Domingo - 07:00, 10:30, 17:00",
+        link: "https://www.instagram.com/psapaduapb/",
+        tags: "Paróquia Santo Antônio de Pádua Paroquia Santo Antonio de Padua Ernesto Geisel"  
+    },
+
+    {
+        paroquia: "Par. S. Francisco de Assis",
+        endereco: "Endereço: R. Joaquim Borba Filho, 413 - Jardim São Paulo, João Pessoa - PB, 58053-110",
+        diahorario: "Horários: Quarta - 19:30, Quinta e Sexta - 06:30, 19:30, Sábado - 17:00, Domingo - 08:00, 10:00, 18:00",
+        link: "https://www.instagram.com/psfa_paroquia/",
+        tags: "Paróquia São Francisco de Assis Paroquia Sao Francisco de Assis Jardim São Paulo Jardim Sao Paulo"  
+    },
+
+    {
+        paroquia: "Par. Maria Mãe da Igreja - Matriz S. Pedro",
+        endereco: "Endereço: R. Maria José Miranda do Amaral - Jardim Veneza, João Pessoa - PB, 58084-160",
+        diahorario: "Horários: Quinta - 19:30 (+adoração), Domingo - 07:30, 19:30",
+        link: "https://www.instagram.com/paroquia.mariamae/",
+        tags: "Paróquia Maria Mãe da Igreja Paroquia Maria Mae da Igreja Matriz São Pedro Paroquia Maria Mae da Igreja Matriz Sao Pedro Jardim Veneza"  
+    },
+
+    {
+        paroquia: "Par. Maria Mãe da Igreja - Capela S. Francisco de Assis",
+        endereco: "Endereço: Teodósio - R. Teodósio de Oliveira Lêdo - Jardim Veneza, João Pessoa - PB, 58084-060",
+        diahorario: "Horários: Sexta - 19:30, Domingo - 17:00",
+        link: "https://www.instagram.com/paroquia.mariamae/",
+        tags: "Paróquia Maria Mãe da Igreja Paroquia Maria Mae da Igreja Capela São Francisco de Assis Capela Sao Francisco de Assis Jardim Veneza"  
+    },
+
+    {
+        paroquia: "Par. Maria Mãe da Igreja - Capela Sagrada Família",
+        endereco: "Endereço: Três Lagoas, João Pessoa - PB",
+        diahorario: "Horários: Sábado - 17:00",
+        link: "https://www.instagram.com/paroquia.mariamae/",
+        tags: "Paróquia Maria Mãe da Igreja Capela Sagrada Família Paroquia Maria Mae da Igreja Capela Sagrada Familia Três Lagoas Tres Lagoas"  
+    },
+
+    {
+        paroquia: "Par. Maria Mãe da Igreja - Capela N. Sra. da Conceição",
+        endereco: "Endereço: Mumbaba, João Pessoa - PB",
+        diahorario: "Horários: Sábado - 19:30",
+        link: "https://www.instagram.com/paroquia.mariamae/",
+        tags: "Paróquia Maria Mãe da Igreja Capela Nossa Senhora da Conceição Paroquia Maria Mae da Igreja Capela Nossa Senhora da Conceicao Mumbaba"  
+    },
+
+    {
+        paroquia: "Par. Sto. Antônio do Menino Deus",
+        endereco: "Endereço: R. Rejane Freire Correia, 2015 - Jardim Cidade Universitária, João Pessoa - PB, 58052-197",
+        diahorario: "Horários: Segunda a Sexta - 19:30, Sábado - 18:00, Domingo - 08:00, 11:00, 18:00",
+        link: "https://www.instagram.com/psantoantoniomd/",
+        tags: "Paróquia Santo Antônio do Menino Deus Paroquia Santo Antonio do Menino Deus Jardim Cidade Universitária Cidade Universitaria"  
+    },
+
+    {
+        paroquia: "Frateridade Casa de Judá",
+        endereco: "Endereço: R. Francisco Tito da Silva - João Paulo II, João Pessoa - PB, 58078",
+        diahorario: "Horários: indisponível",
+        link: "https://www.instagram.com/fraternidade_casa_de_juda/",
+        tags: "Frateridade Casa de Judá Frateridade Casa de Juda João Paulo II Joao Paulo II Joao Paulo 2"  
+    },
+
+    {
+        paroquia: "Par. São José",
+        endereco: "Endereço: R. Rosa de Paula Barbosa, 460 - José Américo de Almeida, João Pessoa - PB, 58073-370",
+        diahorario: "Horários: Quinta - 19h30 (+adoração), Sábado - 17:00, Domingo - 08:30, 19:30",
+        link: "https://www.instagram.com/psjpb/",
+        tags: "Paróquia São José Paroquia Sao Jose José Américo de Almeida Jose Americo"  
+    },
+
+    {
+        paroquia: "Par. Jesus Cristo Rei",
+        endereco: "Endereço: Mangabeira I, João Pessoa - PB, 58033-455",
+        diahorario: "Horários: Segunda e Terça - 18:45, Quarta - 06:15, 19:30, Quinta e Sexta - 06:15, 18:45, Domingo - 07:00, 10:00, 17:00",
+        link: "https://www.instagram.com/paroquiajesuscristorei/",
+        tags: "Paróquia Jesus Cristo Rei Paroquia Jesus Cristo Rei Mangabeira I Mangabeira 1"  
+    },
+
+
     
 
     
