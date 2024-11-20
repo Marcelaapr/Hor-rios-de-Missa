@@ -44,12 +44,13 @@ section {
 h2 {
     color: #003366; /* Azul escuro */
     border-bottom: 3px solid #FFCC00; /* Amarelo */
+    padding-top: 30px;
     padding-bottom: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
 p {
-    margin-bottom: 15px;
+    margin: 30px;
 }
 
 /* Estiliza os inputs dentro das seções */

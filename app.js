@@ -16,29 +16,24 @@ function pesquisar() {
     let resultados = "";
     let paroquia = "";
     let endereco = "";
-    let dia = "";
-    let horario = "";
+    let diahorario = "";
     let tags = "";
 
     // Itera sobre cada dado da lista de dados
     for (let dado of dados) { 
         paroquia = dado.paroquia.toLowerCase()
         endereco = dado.endereco.toLowerCase()
-        dia = dado.dia.toLowerCase()
-        horario = dado.horario.toLowerCase()
+        diahorario = dado.diahorario.toLowerCase()
         tags = dado.tags.toLowerCase()
 
         //se paroquia includes campoPesquisa
-        if (paroquia.includes(campoPesquisa) || endereco.includes(campoPesquisa) || dia.includes(campoPesquisa) || horario.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
+        if (paroquia.includes(campoPesquisa) || endereco.includes(campoPesquisa) || diahorario.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
             // Cria um novo elemento HTML para cada resultado
             resultados += `
             <div class="item-resultado">
-                <h2>
-                    <a href="${dado.link}" target="_blank">${dado.paroquia}</a>
-                </h2>
+                <h2>${dado.paroquia}</h2>
                 <p class="descricao-meta">${dado.endereco}</p>
-                <p class="descricao-meta">${dado.dia}</p>
-                <p class="descricao-meta">${dado.horario}</p>
+                <p class="descricao-meta">${dado.diahorario}</p>
                 <a href=${dado.link} target="_blank">Mais informações</a>
             </div>
             `;
