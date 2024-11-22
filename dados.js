@@ -1215,8 +1215,165 @@ let dados = [
         tags: "Paróquia Jesus Cristo Rei Paroquia Jesus Cristo Rei Mangabeira I Mangabeira 1"  
     },
 
+    {
+        paroquia: "Par. Jesus Cristo Rei - Com. N. Sra. das Graças",
+        endereco: "Endereço: Rua Ana Leal Correia, s/n - Mangabeira I, João Pessoa - PB, CEP 58056-190",
+        diahorario: "Horários: Sábado - 19:30",
+        link: "https://paroquiajesuscristorei.com.br/comunidade-nossa-senhora-das-gracas/",
+        tags: "Paróquia Jesus Cristo Rei Paroquia Jesus Cristo Rei Comunidade Nossa Senhora das Gracas Nossa Senhora das Graças Mangabeira I Mangabeira 1"  
+    },
 
-    
+    {
+        paroquia: "Par. Jesus Cristo Rei - Com. Mãe Rainha",
+        endereco: "Endereço: R. Est. Lucivan Gomes Barbosa, 14 - Mangabeira I, João Pessoa - PB, 58055-565",
+        diahorario: "Horários: indisponível",
+        link: "https://paroquiajesuscristorei.com.br/comunidade-mae-rainha/",
+        tags: "Paróquia Jesus Cristo Rei Paroquia Jesus Cristo Rei Comunidade Mãe Rainha Mae Rainha Mangabeira I Mangabeira 1"  
+    },
+
+    {
+        paroquia: "Par. N. Sra. das Dores",
+        endereco: "Endereço: Av. Cel. Calixto - Mangabeira, João Pessoa - PB, 58059-140",
+        diahorario: "Horários: Quinta - 19h30 (+adoração), Sábado - 18:00, Domingo - 07:00, 16:00, 19:00",
+        link: "https://www.instagram.com/paroquiansdoress/",
+        tags: "Paróquia Nossa Senhora Das Dores Paroquia Nossa Senhora Das Dores Mangabeira I Mangabeira 1"  
+    },
+
+    {
+        paroquia: "Par. Sagrada Família",
+        endereco: "Endereço: R. Vitaliano Barbosa de Albuquerque, S/N - Mangabeira IV, João Pessoa - PB, 58057-322",
+        diahorario: "Horários: Terça - 17:00, Quinta - 19:30, Sábado - 07:00, Domingo - 09:00, 19:00",
+        link: "https://www.instagram.com/sagradafamilia_jpa/",
+        tags: "Paróquia Sagrada Família Paroquia Sagrada Familia Mangabeira IV Mangabeira 4"  
+    },
+
+    {
+        paroquia: "Par. Sagrada Família - Com. Sagr. Coração de Jesus",
+        endereco: "Endereço: R. Odete Gomes de Araújo, 212 - Mangabeira, João Pessoa - PB, 58057-303",
+        diahorario: "Horários: Sexta e Sábado - 19:30, Domingo - 16:00",
+        link: "https://www.instagram.com/sagradafamilia_jpa/",
+        tags: "Paróquia Sagrada Família Paroquia Sagrada Familia Comunidade Sagrado Coração de Jesus Comunidade Sagrado Coracao de Jesus Mangabeira IV Mangabeira 4"  
+    },
+
+    {
+        paroquia: "Par. Sagrada Família - Com. N. Sra. Aparecida",
+        endereco: "Endereço: R. Vitaliano Barbosa de Albuquerque, S/N - Mangabeira IV, João Pessoa - PB, 58057-322",
+        diahorario: "Horários: Quarta - 19:30, Domingo - 07:00",
+        link: "https://www.instagram.com/sagradafamilia_jpa/",
+        tags: "Paróquia Sagrada Família Paroquia Sagrada Familia Comunidade Nossa Senhora Aparecida Nosa Senhora Aparecida Mangabeira IV Mangabeira 4"  
+    },
+
+    {
+        paroquia: "Com. Santa Clara",
+        endereco: "Endereço: Rua Herotildes Bulhões Pinheiro - Mangabeira VIII - João Pessoa",
+        diahorario: "Horários: Domingo - 17:30",
+        link: "https://www.instagram.com/comunidadesalesianasantaclara/",
+        tags: "Comunidade Santa Clara Mangabeira VIII Mangabeira 8"  
+    },
+
+    {
+        paroquia: "Par. S. Francisco de Assis",
+        endereco: "Endereço: R. Renato Gomes de Oliveira, s/n - Mangabeira VII, João Pessoa - PB, 58058-232",
+        diahorario: "Horários: Domingo - 17:30",
+        link: "https://www.instagram.com/psfaoficial/",
+        tags: "Paróquia São Francisco de Assis Paroquia Sao Francisco de Assis Sao Francisco de Asis Mangabeira VII Mangabeira 7"  
+    },
+
+    {
+        paroquia: "Par. S. Francisco de Assis - Com. Sto. Antônio de Pádua",
+        endereco: "Endereço: R. Renato Gomes de Oliveira, s/n - Mangabeira VII, João Pessoa - PB, 58058-232",
+        diahorario: "Horários: Domingo - 09:00",
+        link: "https://www.instagram.com/psfaoficial/",
+        tags: "Paróquia São Francisco de Assis Paroquia Sao Francisco de Assis Sao Francisco de Asis Comunidade Santo Antônio de Pádua Antonio de Padua Mangabeira VII Mangabeira 7"  
+    },
+
+    {
+        paroquia: "Par. S. Francisco de Assis - Sta. Dulce dos Pobres",
+        endereco: "Endereço: R. Renato Gomes de Oliveira, s/n - Mangabeira VII, João Pessoa - PB, 58058-232",
+        diahorario: "Horários: Sábado - 16:00",
+        link: "https://www.instagram.com/psfaoficial/",
+        tags: "Paróquia São Francisco de Assis Paroquia Sao Francisco de Assis Sao Francisco de Asis Santa Dulce dos Pobres Mangabeira VII Mangabeira 7"  
+    },
+
+    {
+        paroquia: "Par. S. Francisco de Assis - Com. Sta. Rita de Cássia",
+        endereco: "Endereço: R. Renato Gomes de Oliveira, s/n - Mangabeira VII, João Pessoa - PB, 58058-232",
+        diahorario: "Horários: Sábado - 18:00",
+        link: "https://www.instagram.com/psfaoficial/",
+        tags: "Paróquia São Francisco de Assis Paroquia Sao Francisco de Assis Sao Francisco de Asis Comunidade Santa Rita de Cássia Rita de Cassia Casia Mangabeira VII Mangabeira 7"  
+    },
+
+    {
+        paroquia: "Par. S. Francisco de Assis - Com. S. João Paulo II e Sta. Bárbara",
+        endereco: "Endereço: R. Renato Gomes de Oliveira, s/n - Mangabeira VII, João Pessoa - PB, 58058-232",
+        diahorario: "Horários: Sábado - 19:30",
+        link: "https://www.instagram.com/psfaoficial/",
+        tags: "Paróquia São Francisco de Assis Paroquia Sao Francisco de Assis Sao Francisco de Asis Comunidade São João Paulo II e Santa Bárbara Sao Joao Paulo 2 e Santa Barbara Mangabeira VII Mangabeira 7"  
+    },
+
+    {
+        paroquia: "Par. S. Francisco de Assis - Com. S. José",
+        endereco: "Endereço: R. Renato Gomes de Oliveira, s/n - Mangabeira VII, João Pessoa - PB, 58058-232",
+        diahorario: "Horários: Domingo - 16:00",
+        link: "https://www.instagram.com/comunidadesaojose.psfa/",
+        tags: "Paróquia São Francisco de Assis Paroquia Sao Francisco de Assis Sao Francisco de Asis Comunidade São José Sao Jose Mangabeira VII Mangabeira 7"  
+    },
+
+    {
+        paroquia: "Com. N. Sra. da Conceição",
+        endereco: "Endereço: R. Dr. Edgard Claudino de Souza s/n - Mangabeira VIII, João Pessoa, Brasil 58059-724",
+        diahorario: "Horários: Quarta 19:30, Domingo - 09:00",
+        link: "https://www.instagram.com/comunidadensdaconceicao/",
+        tags: "Comunidade Nossa Senhora da Conceição Nossa Senhora da Conceicao Mangabeira VIII Mangabeira 8"  
+    },
+
+    {
+        paroquia: "Par. S. Francisco das Chagas",
+        endereco: "Endereço: Av. Dois de Fevereiro, 763 - Rangel",
+        diahorario: "Horários: Quinta e Sábado - 19:30, Domingo - 07:00, 19:30",
+        link: "https://www.instagram.com/paroquiasfcrangel/",
+        tags: "Paróquia São Francisco das Chagas Paroquia Sao Francisco das Chagas Rangel"  
+    },
+
+    {
+        paroquia: "Par. S. Francisco das Chagas - Com. N. Sra. das Graças",
+        endereco: "Endereço: Av. Dois de Fevereiro, 763 - Rangel",
+        diahorario: "Horários: Sábado - 17:00",
+        link: "https://www.instagram.com/paroquiasfcrangel/",
+        tags: "Paróquia São Francisco das Chagas Paroquia Sao Francisco das Chagas Comunidade Nossa Senhora das Graças Nossa Senhora das Gracas Rangel"  
+    },
+
+    {
+        paroquia: "Par. S. Francisco das Chagas - Com. S. Antônio",
+        endereco: "Endereço: Av. Dois de Fevereiro, 763 - Rangel",
+        diahorario: "Horários: Domingo - 16:00",
+        link: "https://www.instagram.com/paroquiasfcrangel/",
+        tags: "Paróquia São Francisco das Chagas Paroquia Sao Francisco das Chagas Comunidade Santo Antônio Santo Antônio Rangel"  
+    },
+
+    {
+        paroquia: "Par. S. Francisco das Chagas - Com. Bom Jesus",
+        endereco: "Endereço: Av. Dois de Fevereiro, 763 - Rangel",
+        diahorario: "Horários: Domingo - 17:30",
+        link: "https://www.instagram.com/paroquiasfcrangel/",
+        tags: "Paróquia São Francisco das Chagas Paroquia Sao Francisco das Chagas Comunidade Bom Jesus Rangel"  
+    },
+
+    {
+        paroquia: "Par. de Aparecida",
+        endereco: "Endereço: Av. Mariângela Lucena Peixoto, 49 - Conj. Valentina Figueredo I, João Pessoa, Brasil 58063300",
+        diahorario: "Horários: Segunda a Sexta - 19:00, Sábado - 17:00, Domingo - 06:30, 09:30, 17:30",
+        link: "https://www.instagram.com/paroquiadeaparecida/",
+        tags: "Paróquia de Aparecida Paroquia de Aparecida Valentina"  
+    },
+
+    {
+        paroquia: "Par. de Aparecida - Capela S. Pedro e S. Paulo",
+        endereco: "Endereço: R. Jorn. Rubéns César, 29 - Valentina de Figueiredo, João Pessoa - PB, 58063-285",
+        diahorario: "Horários: Segunda a Sexta - 19:00, Sábado - 17:00, Domingo - 06:30, 09:30, 17:30",
+        link: "https://www.instagram.com/paroquiadeaparecida/",
+        tags: "Paróquia de Aparecida Paroquia de Aparecida Valentina"  
+    },
 
     
 ];

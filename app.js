@@ -45,4 +45,9 @@ function pesquisar() {
     }
     // Atribui os resultados gerados ao conteúdo da seção HTML
     section.innerHTML = resultados
+
+    
+
+
+
   }
