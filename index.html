@@ -7,7 +7,8 @@
     <meta name="author" content="Marcela Rodriguez">
     <title>Horários de Missas - João Pessoa</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOU2BTvqVryQDuVe7pefx25Oxpg_9eKPA&callback=initMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOU2BTvqVryQDuVe7pefx25Oxpg_9eKPA&callback=initMap" async defer></script>
+
 </head>
 <body>
     <header>
@@ -23,43 +24,13 @@
 
         <section>
             <input type="text" placeholder="Digite o nome do bairro ou paróquia" id="campo-pesquisa">
-            <button onclick="pesquisar()">Pesquisar</button>
+            <button onclick="pesquisar()" aria-label="Pesquisar paróquias e horários">Pesquisar</button>
+
         </section>
+
         <section class="resultados-pesquisa" id="resultados-pesquisa">
         </section>
     
-        <!-- Seção de Horários -->
-         <!--
-        <section id="horarios">
-            <h2>Horários de Missa</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Igreja</th>
-                        <th>Dia</th>
-                        <th>Horário</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Igreja de São Francisco</td>
-                        <td>Domingo</td>
-                        <td>08:00, 10:00, 18:00</td>
-                    </tr>
-                    <tr>
-                        <td>Igreja de Nossa Senhora das Neves</td>
-                        <td>Domingo</td>
-                        <td>07:00, 09:00, 17:00</td>
-                    </tr>
-                    <tr>
-                        <td>Igreja de São Pedro e São Paulo</td>
-                        <td>Segunda a Sexta</td>
-                        <td>18:30</td>
-                    </tr> 
-                    <!-- Adicione mais horários conforme necessário -->
-                </tbody>
-            </table>
-        </section>
 
         <!-- Seção de Mapa -->
         <section id="mapa">

@@ -75,6 +75,13 @@ section button {
     color: #003366; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s ease;
+}
+
+/* Estiliza o botão pesquisar*/
+section button:hover {
+    background-color: #003366;
+    color: #FFCC00;
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
@@ -148,10 +155,17 @@ table tbody tr:hover {
 /* Estilo para o mapa */
 #mapa-container {
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: #ccc; /* Fundo cinza temporário para o mapa */
     margin-top: 20px;
     border-radius: 8px;
+}
+
+/*Ajuste o estilo do mapa para telas menores*/
+@media (max-width: 480px) {
+    #mapa-container {
+        height: 200px;
+    }
 }
 
 /* Estilo do rodapé */
