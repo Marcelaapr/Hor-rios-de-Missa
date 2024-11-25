@@ -82,6 +82,8 @@ function pesquisar() {
                     <button onclick="tracarRota(${dado.coordenadas.latitude}, ${dado.coordenadas.longitude})">
                         Traçar rota
                     </button>
+                    <a href="#" class="btn-navegacao" onclick="navegarParaGPS(${dado.coordenadas.   latitude}, ${dado.coordenadas.longitude})"> Navegar pelo GPS
+                    </a>
                 </div>
             `;
 
@@ -115,6 +117,18 @@ function limparMarcadores() {
     markers.forEach(marcador => marcador.setMap(null));
     markers = []; // Limpa o array de marcadores
 }
+
+let directionsRenderer = new google.maps.DirectionsRenderer();
+
+// Limpa rotas anteriores do mapa, se existirem
+if (directionsRenderer) {
+    directionsRenderer.setMap(null); // Remove a rota do mapa
+    directionsRenderer = new google.maps.DirectionsRenderer(); // Cria um novo renderer
+}
+
+// Configura o novo DirectionsRenderer
+directionsRenderer.setMap(map);
+
 
 function tracarRota(destLat, destLng) {
     if (navigator.geolocation) {
@@ -154,3 +168,26 @@ function tracarRota(destLat, destLng) {
         alert("Geolocalização não é suportada pelo seu navegador.");
     }
 }
+
+function navegarParaGPS(destLat, destLng) {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            position => {
+                const origemLat = position.coords.latitude;
+                const origemLng = position.coords.longitude;
+
+                // Gera o link para o Google Maps no modo de navegação
+                const url = `https://www.google.com/maps/dir/?api=1&origin=${origemLat},${origemLng}&destination=${destLat},${destLng}&travelmode=driving`;
+
+                // Abre o link no navegador
+                window.open(url, "_blank");
+            },
+            error => {
+                alert("Não foi possível obter sua localização. Verifique se o GPS está ativado.");
+            }
+        );
+    } else {
+        alert("Seu navegador não suporta geolocalização.");
+    }
+}
+
